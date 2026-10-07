@@ -31,5 +31,14 @@ def greet(name):
     click.echo(f"Hello, {name}!")
 
 
+@cli.command()
+@click.argument("a", type=int)
+@click.argument("b", type=int)
+def add(a, b):
+    """Adds two numbers and prints the result."""
+    result = a + b
+    click.echo(f"The sum of {a} and {b} is: {result}")
+
+
 if __name__ == "__main__":
     cli()
