@@ -17,7 +17,7 @@ dev = [
 test = ["pytest>=8.0", "pytest-cov"]
 
 [project.scripts]
-dsarm-test = "dsarm_test.cli:main"
+dsarm-test = "dsarm_test.cli:cli"
 
 [build-system]
 requires = ["uv_build>=0.12.17,<0.13.0"]
