@@ -59,7 +59,8 @@ jobs:
             @semantic-release/release-notes-generator@14.0.3 \
             @semantic-release/git@10.0.1 \
             @semantic-release/github@11.0.6 \
-            @semantic-release/exec@7.1.0
+            @semantic-release/exec@7.1.0 \
+            conventional-changelog-conventionalcommits@8.0.0
 
       - name: Install uv
         uses: astral-sh/setup-uv@20cfd1bf945f4377ade1205e4dbc17946fc9a30d # v10.0.1
