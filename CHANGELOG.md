@@ -1,3 +1,9 @@
+## [0.2.1](https://github.com/dsarmiento/cicd-test/compare/v0.2.0...v0.2.1) (2026-10-07)
+
+### Performance Improvements
+
+* **cli:** greet user ([fe9f52c](https://github.com/dsarmiento/cicd-test/commit/fe9f52c44f5535eac8b47e8ad9e048e933202a5f))
+
 ## [0.2.0](https://github.com/dsarmiento/cicd-test/compare/v0.1.0...v0.2.0) (2026-10-07)
 
 ### Features
