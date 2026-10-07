@@ -35,7 +35,7 @@ plugins:
   - - "@semantic-release/exec"
     - verifyReleaseCmd: 'case "${nextRelease.version}" in 0.*) exit 0 ;; *) echo "Refusing to release ${nextRelease.version}: only 0.x versions are allowed until 1.0" >&2; exit 1 ;; esac'
       prepareCmd: uv version --no-sync ${nextRelease.version} && uv build
-      successCmd: 'if [ -n "${GITHUB_OUTPUT:-}" ]; then echo "version=${nextRelease.version}" >> "${GITHUB_OUTPUT}"; echo "tag=v${nextRelease.version}" >> "${GITHUB_OUTPUT}"; fi'
+      successCmd: 'if [ -n "$GITHUB_OUTPUT" ]; then echo "version=${nextRelease.version}" >> "$GITHUB_OUTPUT"; echo "tag=v${nextRelease.version}" >> "$GITHUB_OUTPUT"; fi'
 
   - - "@semantic-release/git"
     - assets:

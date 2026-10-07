@@ -8,9 +8,9 @@ on:
         type: boolean
         default: true
       pypi_repository_url:
-        description: Optional PyPI index URL (e.g. https://test.pypi.org/legacy/)
+        description: PyPI index URL (override to publish to production PyPI)
         type: string
-        default: ""
+        default: "https://test.pypi.org/legacy/"
 
 permissions:
   contents: read
@@ -107,8 +107,8 @@ jobs:
           name: python-dist
           path: dist/
 
-      - name: Publish to PyPI
+      - name: Publish to TestPyPI
         uses: pypa/gh-action-pypi-publish@7f25271a4aa483500f742f9492b2ab5648d61011 # v1.12.4
         with:
           packages-dir: dist/
-          repository-url: ${{ inputs.pypi_repository_url != '' && inputs.pypi_repository_url || 'https://upload.pypi.org/legacy/' }}
+          repository-url: ${{ inputs.pypi_repository_url }}
