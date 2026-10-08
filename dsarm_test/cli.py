@@ -53,5 +53,11 @@ def reverse(text):
     click.echo(text[::-1])
 
 
+@cli.command()
+def version():
+    """Print the installed package version."""
+    click.echo(__version__)
+
+
 if __name__ == "__main__":
     cli()
