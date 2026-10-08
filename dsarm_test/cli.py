@@ -46,5 +46,12 @@ def another():
     click.echo("This is another command!")
 
 
+@cli.command()
+@click.argument("text")
+def reverse(text):
+    """Reverses the given text and prints the result."""
+    click.echo(text[::-1])
+
+
 if __name__ == "__main__":
     cli()
