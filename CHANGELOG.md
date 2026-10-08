@@ -1,3 +1,10 @@
+## [0.3.0](https://github.com/dsarmiento/cicd-test/compare/v0.2.2...v0.3.0) (2026-10-08)
+
+### Features
+
+* **cli:** another command ([6152d63](https://github.com/dsarmiento/cicd-test/commit/6152d6341fde7bff6e0f8622856b35ddcdc9a3ae))
+* **cli:** reverse the text ([#1](https://github.com/dsarmiento/cicd-test/issues/1)) ([1172a70](https://github.com/dsarmiento/cicd-test/commit/1172a704bdddcf51f0c0528be550578c39fc57d9))
+
 ## [0.2.2](https://github.com/dsarmiento/cicd-test/compare/v0.2.1...v0.2.2) (2026-10-07)
 
 ### Performance Improvements
