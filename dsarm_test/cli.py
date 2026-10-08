@@ -40,5 +40,11 @@ def add(a, b):
     click.echo(f"The sum of {a} and {b} is: {result}")
 
 
+@cli.command()
+def another():
+    """Prints a message from the 'another' command."""
+    click.echo("This is another command!")
+
+
 if __name__ == "__main__":
     cli()
