@@ -1,6 +1,6 @@
 [project]
 name = "dsarm-test"
-version = "0.3.0"
+version = "0.4.0"
 description = "Test project"
 readme = "README.md"
 authors = [{ name = "Daniel Sarmiento", email = "dsarmiento731@gmail.com" }]

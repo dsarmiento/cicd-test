@@ -1,3 +1,9 @@
+## [0.4.0](https://github.com/dsarmiento/cicd-test/compare/v0.3.0...v0.4.0) (2026-10-08)
+
+### Features
+
+* **cli:** add version command ([#2](https://github.com/dsarmiento/cicd-test/issues/2)) ([5ba13a8](https://github.com/dsarmiento/cicd-test/commit/5ba13a8c9b0a8c12c12a83f6473bf0d4d6b9675f))
+
 ## [0.3.0](https://github.com/dsarmiento/cicd-test/compare/v0.2.2...v0.3.0) (2026-10-08)
 
 ### Features
